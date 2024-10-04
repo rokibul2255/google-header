@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+
+header{
+    padding: 30px 60px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 15px;
+}
+
+.menu > i{
+    padding-left: 15px;
+}
+
+nav > i{
+    padding-left: 15px;
+}
+
+.burger{
+    display: none;
+}
+a{
+    color: rgb(236, 123, 123);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
